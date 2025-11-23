@@ -3,6 +3,4 @@ deployment:
  imageVersion: IMAGE_VERSION
 hpa:
  maxReplicas: 10
- Utilization: 50
-configMap: 
-  MONGO_URL: mongodb://mongodb:27017/catalogue
+ Utilization: 50 
